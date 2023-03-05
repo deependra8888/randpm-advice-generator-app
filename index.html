@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <title>Frontend Mentor | Advice generator app</title>
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap"
+      rel="stylesheet"
+    />
+    <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+  <body>
+    <main class="container">
+        <h1 class="advice-tag">Advice # 117</h1>
+        <blockquote class="advice-quote">
+          "It is easy to sit up and take notice, what's difficult is getting up
+          and taking action."
+        </blockquote>
+
+        <picture>
+          <source
+            class="desktop"
+            media="(min-width: 601px)"
+            srcset="images/pattern-divider-desktop.svg"
+          />
+          <source
+            class="mobile"
+            media="(max-width: 550px)"
+            srcset="images/pattern-divider-mobile.svg"
+          />
+          <img
+            class="line"
+            src="./images/pattern-divider-mobile.svg"
+            alt="Icon divider"
+          />
+          <button class="btn">
+            <img src="images/icon-dice.svg" alt="Dice icon" />
+          </button>
+        </picture>
+    </main>
+    <script src="./main.js"></script>
+  </body>
+</html>
